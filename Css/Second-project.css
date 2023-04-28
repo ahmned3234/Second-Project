@@ -416,6 +416,7 @@ header nav .form i {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 60px;
+    margin-left: 5px;
 }
 .portfolio .imgs-container .box {
     position: relative;
@@ -433,14 +434,15 @@ header nav .form i {
 }
 @media (min-width:768px) {
     .portfolio .imgs-container .box {
-        flex-basis: 50%;
+        flex-basis: 49%;
     }
 }
 @media (min-width:1199px) {
     .portfolio .imgs-container .box {
-        flex-basis: 24.5%;
+        flex-basis: 24.3%;
     }
 }
+
 .portfolio .imgs-container .box img {
     max-width: 100%;
     transition: .5s;
