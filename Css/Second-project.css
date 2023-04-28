@@ -294,9 +294,7 @@ header nav .form i {
     grid-row-gap: 60px;
  }
 }
-.services-container {
 
-}
 .services .srv-box {
     display: flex;
     
@@ -428,7 +426,10 @@ header nav .form i {
 }
 .portfolio .imgs-container .box:hover img {
     transform: rotate(3deg) scale(1.1);
-    border: 2px solid black;
+}
+.portfolio .imgs-container .box:hover {
+    border: 3px solid black;
+    border-radius: 10px;
 }
 @media (min-width:768px) {
     .portfolio .imgs-container .box {
@@ -464,7 +465,7 @@ header nav .form i {
 .portfolio .more {
     text-decoration: none;
     border-radius: 10px;
-    
+    transition: .2s;
     background-color: var(--main-color);
     padding: 15px 20px;
     color: white;
@@ -474,7 +475,8 @@ header nav .form i {
     width: fit-content;
 }
 .portfolio .more:hover {
-    outline: 3px solid black;
+    outline-offset: 3px;
+    outline: 5px solid var(--main-color);
 }
 /* End Portfolio */
 /* Start Video */
